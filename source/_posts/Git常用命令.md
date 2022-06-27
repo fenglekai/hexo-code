@@ -8,15 +8,15 @@ tags:
 - 🥚Git
 ---
 
-# 查看用户名和邮箱地址：
+# 查看用户名和邮箱地址
 
  `git config user.name  git config user.email`
 
-# 修改用户名和邮箱地址：
+# 修改用户名和邮箱地址
 
   `git config --global user.name  "xxxx"   git config --global user.email  "xxxx"`
 
-# 创建SSH密匙：
+# 创建SSH密匙
 
 `ssh-keygen -t rsa -C "（邮箱）"`
 
@@ -31,6 +31,10 @@ tags:
 # 提交更改
 
 `git commit -m 'xxxx'`
+
+# 查看提交文件是否修改
+
+`git status`
 
 # 查看历史提交（目标版本）
 
